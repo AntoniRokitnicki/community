@@ -1,6 +1,8 @@
-control mouse: tracking.control_toggle()
+#omega_mouse
+control mouse: user.control_mouse_switch()
+zoom mouse: user.zoom_mouse_switch()
+
 control off: user.mouse_sleep()
-zoom mouse: tracking.control_zoom_toggle()
 camera overlay: tracking.control_debug_toggle()
 run calibration: tracking.calibrate()
 touch:
