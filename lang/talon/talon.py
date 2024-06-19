@@ -68,7 +68,7 @@ def on_ready():
 
 
 app.register("ready", on_ready)
-
+app.register("launch", lambda: actions.user.help_list("user.letter"))
 
 @mod.action_class
 class Actions:
