@@ -8,7 +8,7 @@ settings():
     speech.timeout = 1.0
 
     # Uncomment to enable dark mode for talon help menus
-    # imgui.dark_mode = true
+    imgui.dark_mode = true
 
     # If `true`, automatically show the picker GUI when the file manager has focus
     user.file_manager_auto_show_pickers = false
