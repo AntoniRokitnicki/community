@@ -68,6 +68,7 @@ def on_ready():
 
 
 app.register("ready", on_ready)
+#open "help alphabet" at startup
 app.register("launch", lambda: actions.user.help_list("user.letter"))
 
 @mod.action_class

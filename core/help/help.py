@@ -496,7 +496,7 @@ def draw_list_commands(gui: imgui.GUI):
     total_page_count = len(pages_list)
     return pages_list
 
-#on benq
+#on benq - change to "help alphabet" be in correct place
 @imgui.open(x=1751, y=466)
 def gui_list_help(gui: imgui.GUI):
     global total_page_count
